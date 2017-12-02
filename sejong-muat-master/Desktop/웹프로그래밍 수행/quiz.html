@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <meta charset="UTF-8">
+    <title>세종머앟</title>
+<style>
+body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  header {
+      background-color: rgb(245, 132, 153);
+  }
+
+  #content{
+    width: 760px;
+    min-height: 500px;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  .text{
+    width: 180px;
+    text-align: center;
+    line-height: 100px;
+    font-size: 25px;
+    color: rgb(245, 132, 153);
+  }
+
+  a{
+      border: 0;
+      outline: 0;
+      background-color: rgb(245, 132, 153);
+      font-size: 30px;
+      color: white;
+      text-decoration: none;
+  }
+
+  #menu{
+    width: 300px;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: flex;
+  }
+  #tr {
+    width: 150px;
+    margin: 0 0 0 20px;
+  }
+  #quiz {
+    width: 80px;
+    margin: 0 0 0 50px;
+  }
+
+    /*section {
+      position: relative;;
+      height: 100%;
+      display: flex;
+      width: 100%;
+    }*/
+    section {
+      display: flex;
+      width: 1000px;
+      height: 700px;
+      margin: 0;
+      margin-left: auto;
+      margin-right: auto;
+
+    }
+    #question {
+      position: relative;
+      border: 8px solid rgb(245, 132, 153);
+      top: 100px;
+      width: 50%;
+      margin-left: 3%;
+      height: 305px;
+      display: flex;
+      color: rgb(245, 132, 153);
+      font-style: italic;
+    }
+    #answer{
+      position: relative;
+      left: 5%;
+      top: 80px;
+      height: 500px
+
+    }
+    #answer1 {
+      position: relative;
+      top: 0px;
+      left: 10%;
+      color: rgb(245, 132, 153);
+      height: 80%;
+      width: 60%;
+    }
+    #skip {
+      position: relative;
+      width: 200px;
+      height: 45px;
+      font-size: 30px;
+      text-align: center;
+      float: left;
+      right: 40%;
+      color: #eb6877
+
+    }
+    a{
+        border: 0;
+        outline: 0;
+        background-color: rgb(245, 132, 153);
+        font-size: 30px;
+        color: white;
+        text-decoration: none;
+    }
+
+    button{
+      border: 5px solid rgb(245, 132, 153);
+
+      text-align: left;
+      padding-left: 3px;
+
+    }
+    ol{
+      list-style: none;
+    }
+    li {
+      width: 500px;
+      margin-bottom: 20px;
+      height: 10%;
+    }
+    button:focus{
+      outline: none;
+    }
+</style>
+</head>
+<body>
+      <header>
+        <div id="menu">
+        <div id = "tr">
+        <a href="main.html">Main</a>
+        </div>
+        <div id="quiz">
+        <a href="translation.html">Translation</a>
+        </div>
+        </div>
+      </header>
+    <section>
+    <form id="question">
+      민식아 맞짱뜨자.
+    </form>
+    <ol id="answer">
+      <li>
+        <button id="answer1">
+          죽이기
+        </button>
+      </li>
+      <li>
+        <button id="answer1">
+          죽이기
+        </button>
+      </li>
+      <li>
+        <button id="answer1">
+          죽이기
+        </button>
+      </li>
+      <li>
+        <button id="answer1">
+          죽이기
+        </button>
+      </li>
+      <li>
+        <button id="answer1">
+          죽이기
+        </button>
+      </li>
+    <button id="skip">skip</button>
+    </section>
+</html>
